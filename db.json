@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Do homework",
+      "completed": false
+    },
+    {
+      "title": "Do laundry",
+      "completed": false
+    },
+    {
+      "title": "Do dishes",
+      "completed": false
+    }
+  ]
+}
