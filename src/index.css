@@ -1,0 +1,12 @@
+.completedItem {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.filter {
+  margin: 10px 0;
+}
+
+.item {
+  margin: 5px 0;
+}

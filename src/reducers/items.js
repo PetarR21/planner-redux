@@ -27,4 +27,21 @@ export const initalizeItems = () => {
   };
 };
 
+export const createItem = (content) => {
+  return async (dispatch) => {
+    const newItem = await itemsService.create(content);
+    dispatch(appendItem(newItem));
+  };
+};
+
+export const toggleItem = (item) => {
+  return async (dispatch) => {
+    const updatedItem = await itemsService.update({
+      ...item,
+      completed: !item.completed,
+    });
+    dispatch(updateItem(updatedItem));
+  };
+};
+
 export default itemSlice.reducer;

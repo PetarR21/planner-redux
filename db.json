@@ -1,16 +1,19 @@
 {
   "items": [
     {
-      "title": "Do homework",
-      "completed": false
+      "title": "do homework",
+      "completed": true,
+      "id": 1
     },
     {
-      "title": "Do laundry",
-      "completed": false
+      "title": "go to the gym",
+      "completed": true,
+      "id": 2
     },
     {
-      "title": "Do dishes",
-      "completed": false
+      "title": "new item",
+      "completed": false,
+      "id": 3
     }
   ]
 }
